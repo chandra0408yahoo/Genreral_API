@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestFrameNG">
+    <classes>
+       <class name="dec12.MavenRestAssured.Restfirstscript"/>
+       <class name="dec12.MavenRestAssured.restassuredpost"/>
+      <class name="dec12.MavenRestAssured.restresponse"/>
+      <class name="dec12.MavenRestAssured.restGETADVANCED"/>
+      <class name="dec12.MavenRestAssured.restXML"/>
+      <class name="dec12.MavenRestAssured.Reuseablemethods"/>
+    </classes>
+  </test> <!-- TestFrameNG -->
+</suite> <!-- Suite -->
